@@ -1,6 +1,5 @@
 import random
 import telebot
-import film
 
 BOT_TOKEN = ''
 bot = telebot.TeleBot(BOT_TOKEN)
