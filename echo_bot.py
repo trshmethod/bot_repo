@@ -1,8 +1,9 @@
 import random
 import telebot
+import film
 
-TOKEN = ''
-bot = telebot.TeleBot(TOKEN)
+BOT_TOKEN = ''
+bot = telebot.TeleBot(BOT_TOKEN)
 
 with open('film.txt', 'r', encoding="utf-8") as film:
  film = film.readlines() 
